@@ -1,0 +1,28 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class BooleanOperators {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scanMe = new Scanner (System.in);
+		
+		System.out.println("Enter teh age;: ");
+		int age = scanMe.nextInt();
+		
+	    if ((age >=25) && (age <=50))
+	    {
+	    
+	    System.out.println("You are qualified to apply");
+	    
+	    }
+	    else
+	    {
+		
+	    System.out.println("You are not qualified to apply");
+	}
+
+}
+}
