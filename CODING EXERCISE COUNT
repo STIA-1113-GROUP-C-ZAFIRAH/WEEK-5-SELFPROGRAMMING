@@ -1,0 +1,15 @@
+package selfProgramming;
+
+public class Count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double y = 30.0;
+		double x = 20.0;
+		
+		if (y > x );
+		System.out.println("The result : y is not greater than x ");
+	}
+
+}
